@@ -93,8 +93,13 @@ function esPrimo(numero) {
   // Pista 2: Puedes resolverlo usando un bucle `for`
   // Nota: Los números 0 y 1 NO son considerados números primos
  
+  //comprobamos: si numero es igual a 0 o 1 es falso, ya que el 0 y el 1 no son primos
   if (numero == 0 || numero == 1 ) return false;
+  //creo una variable i que sea igual a 2, ya que el dos es el primer número primo
+  //y le indico que mientras que i sea menor que numero por su mitad, sume uno a i
 	for (let i = 2; i < numero / 2; i++) {
+    //entonces en cada vuelta si el modulo de numero entre i es igual a 0 devuelva falso
+    //ya que si la división es exácta el numero no es primo, caso contrario true.
 		if (numero % i == 0){
       return false;
     }
