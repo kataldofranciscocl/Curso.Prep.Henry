@@ -9,6 +9,13 @@ function crearUsuario() {
   // Devuelve la clase
   // Tu código:
 
+
+//
+
+
+
+
+
   function Usuario(opciones){
     this.usuario = opciones.usuario;
     this.nombre = opciones.nombre;
@@ -16,7 +23,7 @@ function crearUsuario() {
     this.password = opciones.password;
   };
 
-  //el método saludar "cuelga" de la clase Usuario
+
   Usuario.prototype.saludar = function(){
     return 'Hola, mi nombre es ' + this.nombre;
   };
