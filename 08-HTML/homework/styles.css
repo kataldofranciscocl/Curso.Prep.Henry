@@ -1,0 +1,64 @@
+html { 
+    background: url('https://newcastlebeach.org/images/restaurant-background-4.png') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+
+.container{
+ 
+    margin:0 auto;
+    width:80%;
+    height:100vh;
+    text-align:center;
+    display:flex;
+    flex-direction: column;
+}
+h1{
+    color:white;
+}
+img{
+     width:100%;
+     max-width:400px;
+     display: block;
+margin: 0 auto;
+padding-bottom:20px;
+padding-top:40px;
+
+}
+img:hover{
+    transform:scale(1.1);
+}
+#thirdDiv{
+    width:70%;
+    max-width: 500px;
+    height:auto;
+    background:#d5783373;;
+    padding:50px;
+    border:#d5783373 solid 4px;
+    color:white;
+    margin:0 auto;
+    margin-top:50px;
+}
+#spanId{
+    font-size:18px;
+    margin:50px;
+    color:white;
+}
+.divClass{
+    color:white;
+}
+ul{
+    padding:0;
+    list-style: none;
+    width:100%;
+    max-width: 500px;
+
+}
+ul li {
+    font-size:20px;
+    font-weight: bold;
+
+}
